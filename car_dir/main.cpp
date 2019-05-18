@@ -1,7 +1,7 @@
 #include <iostream>
-
 #include <fstream>
 #include <cstring>
+#include <clocale>
 
 using namespace std;
 
@@ -50,7 +50,6 @@ int main ( )
 {
     setlocale(LC_CTYPE, "rus");
     fstream file, file1;
-
     rec r1;
     rec* prec[100];
 
